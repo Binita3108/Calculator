@@ -1,0 +1,136 @@
+body{
+	background-color: #99CDFF;
+}
+
+.calc{
+	margin-left: 38%;
+	background-color: black;
+	border: 2px solid whitesmoke;
+	width: 24%;
+	margin-top: -20px;
+	height: 363px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 40px;
+}
+
+.calc-result{
+	margin-left: 46%;
+	font-family: 'Alkatra';
+	margin-block: 30px;
+	font-size: 32px;
+	margin-top: -1px;
+}
+
+.operator{
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	border: 2px solid whitesmoke;
+    border-radius: 20px;
+	box-shadow: 10px 10px 40px;
+	color: white;
+}
+
+.boxes{
+	width: 200px;
+	height: 60px;
+}
+
+.num2{
+	width: 200px;
+	height: 60px;
+	margin-top: 40px;
+	background-color: black;
+	border: 2px solid whitesmoke;
+    border-radius: 20px;
+	box-shadow: 10px 10px 40px;
+	margin-right: 20px;
+	color: white;
+	font-size: 32px;
+}
+
+.num1{
+	width: 200px;
+	margin-left: 520px;
+	height: 60px;
+	border-radius: 20px;
+	background-color: black;
+	border: 2px solid whitesmoke;
+	box-shadow: 10px 10px 40px;
+	color: white;
+	font-size: 32px;
+}
+
+::placeholder {
+  color: whitesmoke;
+  font-family: 'Alkatra';
+  font-weight: 400;
+  margin-left: 20px;
+  font-size: 16px;
+} 
+
+.calculatebtn{
+	height: 90px;
+	width: 150px;
+	font-family:'Alkatra';
+	background-color: black;
+	border: 2px solid whitesmoke;
+    border-radius: 20px;
+	box-shadow: 10px 10px 40px;
+	color: whitesmoke;
+	border-radius: 10px;
+	font-size: 33px;
+}
+
+.numbtn{
+	padding: 30px 35px;
+	border-radius: 50px;
+	font-weight: 600;
+
+	font-size: x-large;
+	background-color: #00B4D8;
+}
+.numbtn:hover{
+    background-color: #032174;
+	color: whitesmoke;
+}
+
+.calbtn{
+	padding: 30px 35px;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: x-large;
+	background-color: #2832C2;
+}
+.calbtn:hover{
+	background-color: #032174;
+	color: #3bd6c6;
+}
+
+.C{
+	padding: 30px 35px;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: x-large;
+	background-color: #ADD8E6;
+}
+.C:hover{
+	background-color: #40e0d0;
+	color: #87CEEB;
+}
+
+.equal{
+	padding: 30px 35px;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: x-large;
+	background-color: #00FFEF;
+}
+.equal:hover{
+	background-color: #40e0d0;
+	color: whitesmoke;
+}
+
+
+
+
